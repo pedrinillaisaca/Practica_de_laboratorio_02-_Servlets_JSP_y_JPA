@@ -38,7 +38,7 @@ public class Main {
 
 		//System.out.println(usd.read(1));
 		
-		//TelefonoDAO telefonoDAO=DAOFactory.getFactory().getTelefonoDAO();
+		TelefonoDAO telefonoDAO=DAOFactory.getFactory().getTelefonoDAO();
 		
 		
 		List<Usuario> u=usd.find();
@@ -61,15 +61,15 @@ public class Main {
 		
 		
 		
-//		Telefono teledit=telefonoDAO.read(2);
-//		teledit.setNumero("aefskd");
-//		teledit.setOperadora("ersdafc");
-//		teledit.setTipo("sdfxc");
-//		telefonoDAO.update(teledit);
-//		
-//		
-//		System.out.println(usd.findByCedula("0106655517"));
-//		
+		Telefono teledit=telefonoDAO.read(2);
+		teledit.setNumero("aefskd");
+		teledit.setOperadora("ersdafc");
+		teledit.setTipo("sdfxc");
+		telefonoDAO.update(teledit);
+		
+		
+		System.out.println(usd.findByCedula("0106655517"));
+		
 		
 	}
 
