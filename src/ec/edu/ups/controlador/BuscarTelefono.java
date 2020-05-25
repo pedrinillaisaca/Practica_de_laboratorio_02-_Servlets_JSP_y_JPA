@@ -10,7 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 import ec.edu.ups.dao.DAOFactory;
 import ec.edu.ups.dao.TelefonoDAO;
 import ec.edu.ups.entidad.Telefono;
-
+/**
+ * pedro illaisaca
+ */
 /**
  * Servlet implementation class BuscarTelefono
  */

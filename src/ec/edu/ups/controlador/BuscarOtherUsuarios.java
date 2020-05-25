@@ -20,7 +20,9 @@ import ec.edu.ups.entidad.Usuario;
 @WebServlet("/BuscarOtherUsuarios")
 public class BuscarOtherUsuarios extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+	/**
+	 * pedro illaisaca
+	 */
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */

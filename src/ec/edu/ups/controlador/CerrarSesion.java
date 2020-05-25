@@ -22,6 +22,9 @@ public class CerrarSesion extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
+    /**
+	 * pedro illaisaca
+	 */
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
